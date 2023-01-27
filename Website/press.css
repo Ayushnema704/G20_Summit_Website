@@ -1,0 +1,388 @@
+/* For Heading ----font-family: 'Aboreto', cursive;
+   
+For Content ----font-family: 'Sofia Sans', sans-serif;
+                font-family: 'Varela Round', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Playfair+Display&family=Sofia+Sans:wght@200;700&family=Ubuntu&family=Varela+Round&display=swap');
+
+/* Body Styling */
+/*---------------------------------------------------Background Colour & Margin ,Padding Done ------------------------------------------*/
+body {
+  background-color: ghostwhite;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*-------------------------------------------------------Designing Head Part--------------------------------------------------------*/
+.G20Summit {
+  font-family: "Sofia Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  height: 50px;
+  background-color: orange;
+  color: azure;
+}
+
+.display {
+  font-family: 'Playfair Display';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  height: 50px;
+  background-color: green;
+  color: azure;
+  padding: 1px 5px;
+  text-indent: 5px;
+}
+
+.brand img {
+  position: absolute;
+  top: 5px;
+  left: 503px;
+  width: 105px;
+  padding: 1px 0px;
+}
+
+.brand {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.container {
+  padding: 15px;
+  font-family: "Aboreto";
+  font-size: medium;
+  font-weight: bolder;
+  text-align: center;
+  background-color: aliceblue;
+  color: blue;
+}
+
+/*-----------------------------------------------------------Navigation Bar--------------------------------------------------*/
+a {
+  text-decoration: none;
+}  
+
+#Navigation {
+  width: 100%;
+  align-self: center;
+}  
+
+#NavButtons.sticky {
+  position: sticky;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 5px 3px;
+  background-color: bisque;
+}  
+#navbuts {
+cursor: pointer;
+padding: 0px 10px 0px;
+padding-bottom: 0px;
+border-bottom: 3px solid transparent;
+  color: black;
+  font-size: 20px;
+  transition: all 200ms linear;
+}  
+
+#navbuts:hover {
+  text-decoration: underline;
+  text-shadow: white 0.5px 0 2px;
+  color: black;
+  font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}  
+
+/*------------------------------------------------Navigation Bar end line---------------------------------*/
+#hr {
+  border-top: 3px solid black;
+  margin: 1px;
+  color: black;
+  width: 100%;
+}  
+
+
+/* -----------------------------------Same for all--------------------------------------- */
+
+.Heading {
+  text-shadow: 50px white;
+  position: absolute;
+  top: 250px;
+  left: 25px;
+  display: block;
+  font-weight: bolder;
+  font-family: "Varela Round";
+  font-size: xx-large;
+}
+
+.content {
+  text-shadow: 50px white;
+  position: absolute;
+  top: 330px;
+  left: 30px;
+  right: 20px;
+  font-size: large;
+  font-family: "Ubuntu";
+  color: black;
+  font-weight: 520;
+}
+
+
+/*-------------------------------------For Photos.html------------------------------------*/
+
+/* ------------------------------------------------Image Slider --------------------------------------------------------------------*/
+
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+.slide {
+  position: absolute;
+  top: 30px;
+  left: 130px;
+  width: 75%;
+  height: 95%;
+  animation: slideIn 1s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  transition: opacity 1s ease-in-out;
+
+}
+/*------------------------------------------------Buttons on Image Slider--------------------------------------------*/
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 0px;
+  color: white font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+
+}  
+
+.next-btn {
+  right: 445px;
+  border-radius: 3px 0 0 3px;
+}  
+
+.prev-btn {
+  left: 25px;
+  border-radius: 3px 0 0 3px;
+}  
+
+
+
+
+#Heal {
+  position: relative;
+  margin-top: 30px;
+  left: 40%;
+  font-size: xx-large;
+  font-family: "Varela Round";
+}  
+
+/*-------------------------------------------For G20_Members.html---------------------------------------*/
+
+#Cuur {
+  position: absolute;
+  left: 38%;
+
+}  
+
+
+/*-------------------------------------------Contact US.html---------------------------------------*/
+
+#connect {
+  margin: auto;
+  margin-bottom: 0px;
+  background: black;
+  min-height: 200px;
+  width: 100%;
+}
+
+.connectsection {
+  display: flex;
+  justify-content: center;
+}
+
+.connectsection>div {
+  margin: 10px 20px;
+}
+
+.connectsection>div:nth-child(2) {
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.connectsection input {
+  width: 205px;
+  padding: 7px 10px;
+  margin: 5px auto;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+}
+
+.connectsection textarea {
+  padding: 7px 10px;
+  margin: 5px auto;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  margin: 1px auto;
+}
+
+.connectsection label {
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+#letusconnect {
+  font-size: 90px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Aboreto";
+}
+
+
+#submit-button {
+  border-radius: 50px;
+  bottom: 0px;
+  right: 5px;
+  width: 25%;
+  color: white;
+  font-size: 18px;
+  background-color: darkgoldenrod;
+  margin: 5px 10px;
+  position: absolute;
+  padding: 10px 30px;
+}
+/*-------------------------------------------Footer-----------------------------------------*/
+.Footer {
+  position: absolute;
+  top: 1300px;
+  display: flex;
+  flex-direction: column;
+  min-height: 10px;
+  min-width: 100%;
+  background-color: rgb(32, 27, 27);
+  color: #fff;
+}
+
+#ACMLOGO {
+  height: 200px;
+  width: 200px;
+  margin-left: 1000px;
+}
+
+#ACM {
+  margin-top: -20px;
+  margin-left: 956px;
+}
+
+#Sub {
+  margin-top: -160px;
+  margin-left: 55px;
+}
+
+#SMedia {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#Instagram {
+  margin-left: 400px;
+  position: absolute;
+  top: 330px;
+}
+
+#Linkedin {
+  margin-left: 750px;
+  position: absolute;
+  top: 330px;
+}
+
+#Github {
+  margin-left: 1100px;
+  position: absolute;
+  top: 330px;
+}
+
+/* --------------------Resizing Icons Imported From Font Awesome -----------------------------*/
+
+.fa-brands.fa-instagram {
+  font-size: xx-large;
+
+
+}
+
+.fa-brands.fa-linkedin {
+  font-size: xx-large;
+
+
+}
+
+.fa-solid.fa-envelope {
+  font-size: xx-large;
+
+
+}
+
+.fa-brands.fa-github {
+  font-size: xx-large;
+
+}
+
+
+/* Below Helps in designing the other items properly like list items , headings ,submission btn and other parts of footer*/
+
+footer h4 {
+  color: #fff;
+  margin-left: 100px;
+  margin-bottom: 2em;
+  font-family: "Varela Round";
+  font-size: larger;
+
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 2em;
+}
+
+footer ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.btn-primary {
+  margin-left: 105px;
+  margin-top: 10px;
+}
+
