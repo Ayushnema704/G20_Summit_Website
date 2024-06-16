@@ -1,6 +1,5 @@
 # G20 Summit Website
 
-![G20 Summit](path_to_screenshot_image.png)
 
 ## Introduction
 
