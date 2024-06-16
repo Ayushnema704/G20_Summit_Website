@@ -69,7 +69,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any inquiries or feedback, please reach out to us at ayushnema2468@gmail.com].
+For any inquiries or feedback, please reach out to us at ayushnema2468@gmail.com.
 
 ---
 
